@@ -34,7 +34,7 @@ class User
 		$apiTemplate = str_replace($repl, $userInfo, $apiTemplateSet1);
 	 	
  
-	  var_dump($apiTemplate);
+	   return $apiTemplate;
 	}
 
 }
